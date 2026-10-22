@@ -1,0 +1,13 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "Student Management System using Node.js and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node demo.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.11.0"
+  }
+}

@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS college;
+USE college;
+
+CREATE TABLE IF NOT EXISTS students (
+  id     INT PRIMARY KEY AUTO_INCREMENT,
+  name   VARCHAR(100) NOT NULL,
+  age    INT,
+  course VARCHAR(100),
+  email  VARCHAR(100)
+);
