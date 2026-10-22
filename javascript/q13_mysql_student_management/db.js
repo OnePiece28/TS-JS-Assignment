@@ -4,7 +4,7 @@ const mysql = require("mysql2/promise");
 const config = {
   host: "localhost",
   user: "root",
-  password: "_R.o.b.o_369",
+  password: "Password",
   database: "college"
 };
 
